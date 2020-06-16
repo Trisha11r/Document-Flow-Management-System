@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+.main-body
+{
+	font-size: 1.2em;
+}
+td,th
+{
+	text-align: center;
+	width: 33%;
+}
+.see-details
+{
+	padding: 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.see-details:hover
+{
+	color: blue;
+}
+
+.edit-doc-type
+{
+	padding: 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.edit-doc-type:hover
+{
+	color: green;
+}
+
+.delete-doc-type
+{
+	padding: 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.delete-doc-type:hover
+{
+	color: red;
+}
+.window
+{
+	position: fixed;
+	top: 50%;
+	left : 50%;
+	width: 640px;
+	height: 480px;
+	margin-top: -240px;
+	margin-left: -320px;
+	z-index: 100;
+	background-color: #FFF; 
+}
+.window-background
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left: 0px;
+	background: rgba(0,0,0,0.7);	
+}
+.close-window
+{
+	float: right;
+	margin: 3px;
+	cursor: pointer;
+}
+.window-body
+{
+	margin: 30px 5px;
+	overflow-y: auto;
+}

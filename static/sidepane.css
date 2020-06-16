@@ -1,0 +1,94 @@
+.main-body
+{	
+	margin-top: 50px;
+	padding: 20px 60px;
+}
+.main-body-compressed
+{
+	margin-left: 300px;
+}
+.main-body-enlarged
+{
+	margin-left: 0px;
+}
+.main-menu
+{
+	list-style: none;
+	font-size: 1.5em;
+}
+.main-menu > li
+{
+	cursor: pointer;
+	margin: 5px;
+}
+.sub-menu > li
+{
+	cursor: pointer;
+}
+.sub-menu > li:hover,.sub-menu > li:focus
+{
+	background-color: #dff0d8;
+}
+.sub-menu
+{
+	list-style: none;
+	font-size: 0.8em;
+}
+.user-section
+{
+	text-align: center;
+	margin: 10px;
+}
+.user-name
+{
+	font-size: 1.6em;
+}
+.user-designation, .user-department
+{
+	font-size: 1.2em;
+}
+.user-groups a
+{
+	margin: 2px;
+}
+.user-photo i
+{
+	font-size: 10em;
+	color:rgba(1,1,1,0.7);
+	border-radius: 50%;
+}
+.side-pane
+{
+	box-shadow: 0 2px 4px rgba(12,13,14,0.15);
+	width: 300px;
+	position: fixed;
+	height: 100%;
+	left:0px;
+	top:50px;
+}
+.toggle-side-pane
+{
+	position:absolute;
+	font-size: 2em;
+	cursor: pointer;
+}
+.close-side-pane-button
+{
+	left:300px;	
+}
+.open-side-pane-button
+{
+	left:300px;	
+}
+.closed-side-pane
+{
+	left:-300px;	
+}
+.opened-side-pane
+{
+	left:0px;	
+}
+.toggle-sub-menu
+{
+	padding-left: 10px;
+}

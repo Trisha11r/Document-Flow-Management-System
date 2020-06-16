@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+.main-body
+{
+	font-size: 1.2em;
+}
+td,th
+{
+	text-align: center;
+	width: 25%;
+}
+.save-doc,.close-doc
+{
+	padding: 5px 25px;
+	font-size: 1.2em;
+}
+textarea
+{
+	width: 80%;
+}

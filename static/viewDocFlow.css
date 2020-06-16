@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+.main-body
+{
+	font-size: 1.2em;
+}
+td,th
+{
+	text-align: center;
+	width: 20%;
+}
+.edit-doc-flow
+{
+	padding: 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.edit-doc-flow:hover
+{
+	color: green;
+}
+
+.delete-doc-flow
+{
+	padding: 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.delete-doc-flow:hover
+{
+	color: red;
+}

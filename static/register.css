@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+input [type:text,number,password,date]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 4px;
+}
+input:focus {
+    border: 3px solid #555;
+}
+.main-body
+{
+	font-size: 1.2em;
+}
+.submit-form
+{
+	padding: 5px 25px;
+	font-size: 1.4em;
+}
