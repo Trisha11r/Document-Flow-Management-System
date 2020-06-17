@@ -19,12 +19,12 @@ A web–based system to manage flow of documents between user-groups with value 
 
 For user authentication database
 
-<img src="authsys_db.png" width = 100 height = 100>
+<img src="authsys_db.png" width = 200 height = 200>
 
 For business logic database
 
-<img src="er.png" width = 500>
+<img src="er.png" width = 1000 height= 500>
 
 ## Example Sequence Diagram
- <img src="example.png" width = 500>
+ <img src="example.png" width = 1000 height= 500>
  
